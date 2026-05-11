@@ -14,7 +14,7 @@ export default function App() {
   const [selected, setSelected] = useState(null)
 
   useEffect(() => {
-    fetch('/data.json')
+    fetch(`${import.meta.env.BASE_URL}data.json`)
       .then(r => r.json())
       .then(d => { setProducts(d.products); setLoading(false) })
   }, [])
