@@ -3,6 +3,7 @@ import Toolbar from './components/Toolbar.jsx'
 import ProductTable from './components/ProductTable.jsx'
 import DetailDrawer from './components/DetailDrawer.jsx'
 import PrdView from './components/PrdView.jsx'
+import OrdersDash from './components/OrdersDash.jsx'
 
 export default function App() {
   const [products, setProducts] = useState([])
@@ -78,6 +79,7 @@ export default function App() {
         >
           <option value="products">Products</option>
           <option value="prd">PRD</option>
+          <option value="orders">Orders Dashboard</option>
         </select>
         <span className="ml-auto text-sm text-gray-400">{products.length} products · 26 categories</span>
       </header>
@@ -98,8 +100,10 @@ export default function App() {
               onSelect={setSelected}
             />
           </>
-        ) : (
+        ) : view === 'prd' ? (
           <PrdView products={products} />
+        ) : (
+          <OrdersDash />
         )}
       </div>
 

@@ -1,0 +1,250 @@
+{
+  "summary": {
+    "total_orders": 12000,
+    "clean_orders": 10597,
+    "total_revenue": 222915269.96580008,
+    "avg_order_value": 21035.695948457116,
+    "return_rate": 10.44635274134189,
+    "avg_satisfaction": 3.680068520757759
+  },
+  "by_region": {
+    "Asia Pacific": 47173218,
+    "North America": 46436253,
+    "Latin America": 44094661,
+    "Europe": 43117084,
+    "Middle East": 42094053
+  },
+  "by_category": {
+    "Electronics": 46701422,
+    "Furniture": 45108812,
+    "Services": 44484682,
+    "Office Supplies": 43512601,
+    "Software": 43107752
+  },
+  "by_channel": {
+    "Direct Sales": 57630555,
+    "Partner": 55974176,
+    "Retail": 55430754,
+    "Online": 53879785
+  },
+  "by_segment": {
+    "Government": 64502902,
+    "SMB": 55883171,
+    "Consumer": 54132258,
+    "Enterprise": 48396939
+  },
+  "by_status": {
+    "Completed": 7901,
+    "Returned": 1107,
+    "Cancelled": 832,
+    "Pending": 757
+  },
+  "monthly": [
+    {
+      "month": "2023-01",
+      "revenue": 6869913
+    },
+    {
+      "month": "2023-02",
+      "revenue": 5276975
+    },
+    {
+      "month": "2023-03",
+      "revenue": 6768545
+    },
+    {
+      "month": "2023-04",
+      "revenue": 5878007
+    },
+    {
+      "month": "2023-05",
+      "revenue": 6131697
+    },
+    {
+      "month": "2023-06",
+      "revenue": 5487002
+    },
+    {
+      "month": "2023-07",
+      "revenue": 6755652
+    },
+    {
+      "month": "2023-08",
+      "revenue": 6409435
+    },
+    {
+      "month": "2023-09",
+      "revenue": 6363834
+    },
+    {
+      "month": "2023-10",
+      "revenue": 6810295
+    },
+    {
+      "month": "2023-11",
+      "revenue": 5277420
+    },
+    {
+      "month": "2023-12",
+      "revenue": 5891200
+    },
+    {
+      "month": "2024-01",
+      "revenue": 6536232
+    },
+    {
+      "month": "2024-02",
+      "revenue": 5234147
+    },
+    {
+      "month": "2024-03",
+      "revenue": 6298133
+    },
+    {
+      "month": "2024-04",
+      "revenue": 6143526
+    },
+    {
+      "month": "2024-05",
+      "revenue": 6774850
+    },
+    {
+      "month": "2024-06",
+      "revenue": 6866179
+    },
+    {
+      "month": "2024-07",
+      "revenue": 6243232
+    },
+    {
+      "month": "2024-08",
+      "revenue": 5830775
+    },
+    {
+      "month": "2024-09",
+      "revenue": 6176147
+    },
+    {
+      "month": "2024-10",
+      "revenue": 6291983
+    },
+    {
+      "month": "2024-11",
+      "revenue": 6175694
+    },
+    {
+      "month": "2024-12",
+      "revenue": 6989665
+    },
+    {
+      "month": "2025-01",
+      "revenue": 5764993
+    },
+    {
+      "month": "2025-02",
+      "revenue": 5664730
+    },
+    {
+      "month": "2025-03",
+      "revenue": 5708896
+    },
+    {
+      "month": "2025-04",
+      "revenue": 6765715
+    },
+    {
+      "month": "2025-05",
+      "revenue": 6740317
+    },
+    {
+      "month": "2025-06",
+      "revenue": 6719958
+    },
+    {
+      "month": "2025-07",
+      "revenue": 6207864
+    },
+    {
+      "month": "2025-08",
+      "revenue": 6342676
+    },
+    {
+      "month": "2025-09",
+      "revenue": 4993338
+    },
+    {
+      "month": "2025-10",
+      "revenue": 6280318
+    },
+    {
+      "month": "2025-11",
+      "revenue": 6148259
+    },
+    {
+      "month": "2025-12",
+      "revenue": 6097667
+    }
+  ],
+  "top_customers": [
+    {
+      "name": "Pat Hall",
+      "revenue": 2186907
+    },
+    {
+      "name": "Jordan Martinez",
+      "revenue": 1978809
+    },
+    {
+      "name": "Taylor Hall",
+      "revenue": 1925966
+    },
+    {
+      "name": "Dakota Johnson",
+      "revenue": 1857963
+    },
+    {
+      "name": "Reese Lopez",
+      "revenue": 1733135
+    },
+    {
+      "name": "Sam Thomas",
+      "revenue": 1658426
+    },
+    {
+      "name": "Sam Wright",
+      "revenue": 1652440
+    },
+    {
+      "name": "Drew Kim",
+      "revenue": 1568376
+    },
+    {
+      "name": "Dakota Kim",
+      "revenue": 1564035
+    },
+    {
+      "name": "Avery Thomas",
+      "revenue": 1536731
+    }
+  ],
+  "return_rate_by_cat": {
+    "Electronics": 10.6,
+    "Furniture": 9.2,
+    "Office Supplies": 12.2,
+    "Services": 10.2,
+    "Software": 10.1
+  },
+  "data_quality": {
+    "total": 12000,
+    "flagged": 2499,
+    "flags": {
+      "duplicate_ids": 326,
+      "date_issues": 413,
+      "negative_qty": 250,
+      "zero_price": 226,
+      "missing_customer": 505,
+      "geo_mismatch": 246,
+      "satisfaction": 748
+    }
+  }
+}
