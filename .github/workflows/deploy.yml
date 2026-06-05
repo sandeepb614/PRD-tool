@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [claude/device-features-dataset-J0Dbr, main]
+    branches: [claude/device-features-dataset-J0Dbr, claude/data-review-UkoeT, main]
   workflow_dispatch:
 
 permissions:
